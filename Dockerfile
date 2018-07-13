@@ -1,5 +1,5 @@
 # 选择nginx服务
-FROM nginx:1.15.1
+FROM nginx:latest
 # copy代码
 COPY . /src
 # 添加nginx配置文件
